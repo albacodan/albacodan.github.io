@@ -3,7 +3,8 @@ import {
   Terminal, Shield, Server, Code, Database, 
   Cpu, Globe, Lock, ChevronRight, Mail, 
   Linkedin, Github, FileText, Download, ExternalLink,
-  Menu, X, Hash, Award, Cloud, Skull, Crosshair, Target
+  Menu, X, Hash, Award, Cloud, Skull, Crosshair, Target,
+  Swords
 } from 'lucide-react';
 
 // --- DATA (Move to src/data/ in local project) ---
@@ -79,7 +80,7 @@ const certifications = [
 
 const skills = [
   { name: "Pentesting & Red Teaming", level: 80, color: "bg-red-600" },
-  { name: "Linux/Windows Admin", level: 90, color: "bg-blue-600" },
+  { name: "Linux/Windows Hardening", level: 90, color: "bg-blue-600" },
   { name: "Automatización & DevOps", level: 75, color: "bg-green-600" },
   { name: "Virtualización", level: 85, color: "bg-orange-600" },
   { name: "Docker & Cloud Security", level: 70, color: "bg-cyan-600" }
@@ -87,10 +88,10 @@ const skills = [
 
 const projects = [
   {
-    title: "VulnScan Lab",
-    category: "Red Team",
-    tech: ["Kali", "Nmap", "Metasploit"],
-    desc: "Entorno virtualizado donde simulo ataques a máquinas Windows Legacy y exploto vulnerabilidades conocidas (BlueKeep, EternalBlue).",
+    title: "eJPTv2 Labs",
+    category: "Pentesting Junior",
+    tech: ["Kali", "Nmap", "Metasploit", "BurpSuite"],
+    desc: "Write-ups de laboratorios donde simulo ataques a máquinas y exploto vulnerabilidades conocidas (BlueKeep, EternalBlue, RCE, LFI).",
     color: "border-red-600"
   },
   {
@@ -101,10 +102,10 @@ const projects = [
     color: "border-orange-500"
   },
   {
-    title: "Auto-Backup System",
-    category: "DevSecOps",
+    title: "Hack The Box",
+    category: "Red Team",
     tech: ["Python", "Docker", "Jenkins"],
-    desc: "Sistema automatizado de backups con verificación de integridad, asegurando la disponibilidad (Triada CIA).",
+    desc: "Plataforma muy conocida donde realizaré CTF. Futura preparación para CJCA & CPTS.",
     color: "border-purple-500"
   }
 ];
@@ -323,7 +324,7 @@ export default function Portfolio() {
               {/* "Incoming" Card */}
               <div className="border border-dashed border-gray-800 rounded p-6 flex flex-col items-center justify-center text-center opacity-50 hover:opacity-100 transition-opacity cursor-default">
                  <Lock className="w-8 h-8 text-gray-600 mb-2" />
-                 <span className="text-sm text-gray-500 font-mono">Próximo Write-up: <br/> Active Directory Forest Trust</span>
+                 <span className="text-sm text-gray-500 font-mono">Próximamente: <br/> Proyecto Personal Ciberseguridad</span>
               </div>
             </div>
           </div>
@@ -372,13 +373,14 @@ export default function Portfolio() {
                   </div>
                 </div>
 
-                <div className="p-6 rounded border border-blue-900/30 bg-blue-900/10">
-                  <h4 className="text-blue-400 font-bold mb-2 flex items-center gap-2">
-                    <Cloud className="w-4 h-4" /> Cloud & Labs
+                <div className="p-6 rounded border border-purple-900/30 bg-purple-900/10">
+                  <h4 className="text-purple-400 font-bold mb-2 flex items-center gap-2">
+                    <Swords className="w-4 h-4" /> Hacking & Labs
                   </h4>
                   <p className="text-sm text-gray-400">
-                    Despliego mis propios laboratorios de pentesting usando <strong>Docker</strong> y <strong>Proxmox</strong>. 
-                    Familiarizado con entornos Azure para auditorías cloud.
+                    Para llevar acabo mis prácticas de Pentesting y Hacking Ético uso plataformas como <strong>Hack The Box, TryHackMe, DockerLabs, TheHackerLabs, VulNyx</strong>, etc. 
+                    Son <strong>Entornos de Simulación de Ciberseguridad</strong> o <strong>Laboratorios de Hacking Ético en la Nube</strong>.
+                    Proveen un entorno legal y seguro para que los profesionales y estudiantes puedan practicar técnicas de ataque y defensa contra sistemas reales o simulados, sin causar daño..
                   </p>
                 </div>
               </div>
