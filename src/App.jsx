@@ -80,7 +80,7 @@ const certifications = [
 const skills = [
   { name: "Pentesting & Red Teaming", level: 80, color: "bg-red-600" },
   { name: "Linux/Windows Admin", level: 90, color: "bg-blue-600" },
-  { name: "Automatización y DevOps", level: 75, color: "bg-green-600" },
+  { name: "Automatización & DevOps", level: 75, color: "bg-green-600" },
   { name: "Virtualización", level: 85, color: "bg-orange-600" },
   { name: "Docker & Cloud Security", level: 70, color: "bg-cyan-600" }
 ];
@@ -203,7 +203,7 @@ export default function Portfolio() {
             
             <p className="text-xl text-gray-400 max-w-2xl mb-10 leading-relaxed">
               Administrador de Sistemas evolucionando hacia <span className="text-white font-bold">Ciberseguridad Ofensiva</span>.
-              Uso mi conocimiento profundo de infraestructuras para entender cómo romperlas y asegurarlas.
+              Uso mi conocimiento de infraestructuras para entender cómo romperlas y asegurarlas.
             </p>
 
             {/* ACTION BUTTONS */}
