@@ -194,7 +194,7 @@ export default function Portfolio() {
             
             <div className="flex items-center gap-3 mb-8">
               <span className="px-3 py-1 bg-red-900/30 border border-red-800 text-red-400 text-xs font-bold tracking-widest uppercase rounded">
-                Red Team Oriented
+                Pentester Junior
               </span>
               <span className="px-3 py-1 bg-blue-900/30 border border-blue-800 text-blue-400 text-xs font-bold tracking-widest uppercase rounded">
                 SysAdmin Solid Base
