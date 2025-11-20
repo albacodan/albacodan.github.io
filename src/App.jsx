@@ -18,7 +18,7 @@ const experienceData = [
     color: "blue"
   },
   {
-    company: "Consejería de Turismo",
+    company: "Consejería de Cultura",
     role: "Técnico Microinformático",
     period: "Feb 2025 - Sept 2025",
     location: "Sevilla, España",
@@ -27,15 +27,15 @@ const experienceData = [
   },
   {
     company: "Italtel S.A.",
-    role: "DevOps Junior",
+    role: "DevOps Junior (Prácticas)",
     period: "Abr 2024 - Jun 2024",
     location: "Sevilla, España",
-    desc: "Automatización de infraestructuras. Conocimiento profundo de pipelines CI/CD, vital para DevSecOps.",
+    desc: "Automatización de tareas. Conocimiento de pipelines CI/CD, vital para DevSecOps.",
     color: "red"
   },
   {
     company: "Babylon Radio",
-    role: "Desarrollador Web",
+    role: "Desarrollador Web (Prácticas)",
     period: "Mar 2022 - Jun 2022",
     location: "Dublín, Irlanda",
     desc: "Desarrollo web y optimización. Entendimiento de la estructura web para auditorías de seguridad.",
@@ -53,13 +53,13 @@ const educationData = [
   },
   {
     school: "IES DELGADO HERNÁNDEZ",
-    degree: "G.S. Administración de Sistemas (ASIR)",
+    degree: "G.S. Administración de Sistemas Informáticos en Red (ASIR)",
     period: "2022 - 2024",
     grade: "8.38/10"
   },
   {
     school: "IES DELGADO HERNÁNDEZ",
-    degree: "G.M. Sistemas Microinformáticos (SMR)",
+    degree: "G.M. Sistemas Microinformáticos y Redes (SMR)",
     period: "2020 - 2022",
     grade: "8.30/10"
   }
@@ -67,18 +67,21 @@ const educationData = [
 
 const certifications = [
   "eJPTv2 (Objetivo Actual)",
-  "SC-900 Microsoft Security",
-  "AZ-900 Microsoft Azure",
-  "CCNA 1 & 2 Cisco",
+  "SC-900 Microsoft",
+  "AZ-900 Microsoft",
+  "DP-900 Microsoft",
+  "AI-900 Microsoft",
+  "CCNA1 & CCNA2 - Cisco",
   "IT Specialist Cybersecurity",
-  "IT Specialist Python/AI"
+  "IT Specialist Cloud Computing",
+  "IT Specialist AI"
 ];
 
 const skills = [
-  { name: "Pentesting & Red Teaming", level: 85, color: "bg-red-600" },
-  { name: "Linux/Windows Hardening", level: 95, color: "bg-blue-600" },
-  { name: "Scripting (Python/Bash)", level: 85, color: "bg-purple-600" },
-  { name: "Active Directory Attacks", level: 75, color: "bg-orange-600" },
+  { name: "Pentesting & Red Teaming", level: 80, color: "bg-red-600" },
+  { name: "Linux/Windows Admin", level: 90, color: "bg-blue-600" },
+  { name: "Automatización y DevOps", level: 75, color: "bg-green-600" },
+  { name: "Virtualización", level: 85, color: "bg-orange-600" },
   { name: "Docker & Cloud Security", level: 70, color: "bg-cyan-600" }
 ];
 
@@ -401,7 +404,7 @@ export default function Portfolio() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-2 cursor-pointer group" onClick={() => setActiveSection('home')}>
               <div className="w-8 h-8 bg-red-600 flex items-center justify-center rounded text-white font-bold font-mono group-hover:bg-red-700 transition-colors">D</div>
-              <span className="font-mono font-bold text-xl text-white tracking-tighter">DALBACO<span className="text-red-500">.SEC</span></span>
+              <span className="font-mono font-bold text-xl text-white tracking-tighter">D4Ni<span className="text-red-500">XPl0iT</span></span>
             </div>
             
             <div className="hidden md:flex space-x-8">
