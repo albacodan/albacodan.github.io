@@ -4,5 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/albacodan.github.io/", // <--- IMPORTANTE: Nombre exacto de tu repositorio
+  // ¡CRÍTICO! Para repositorios de dominio (albacodan.github.io),
+  // el base path debe ser solo una barra.
+  base: "/",
 })
